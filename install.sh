@@ -1,1 +1,7 @@
-IyEvYmluL2Jhc2gKCnRvdWNoIGZpbGUudGVzdAp3aG9hbWkgPj4gZmlsZS50ZXN0Cmhvc3RuYW1lID4+IGZpbGUudGVzdApwd2QgPj4gZmlsZS50ZXN0CmxzIC1saGEgPj4gZmlsZS50ZXN0Cg==
+#!/bin/bash
+
+touch file.test
+whoami >> file.test
+hostname >> file.test
+pwd >> file.test
+ls -lha >> file.test
